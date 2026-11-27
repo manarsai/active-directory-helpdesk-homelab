@@ -1,5 +1,5 @@
 ## Contents of this documentation
-Exercise 1: Creating a new employee account in Active Directory
+Exercise 1: Creating a new employee account in Active Directory<br>
 Exercise 2: Resetting an employee's password
 
 ## Exercise 1: Creating a new employee account in Active Directory
