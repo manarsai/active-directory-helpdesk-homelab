@@ -1,59 +1,64 @@
-# Active Directory & Windows Server Helpdesk Home Lab
+# Active Directory & Helpdesk Home Lab
 
 ## Project Overview
 
-I'm building a virtualised small-business IT environment to develop practical skills relevant to Level 1 Helpdesk and IT Support roles.
+This project involves building a virtual IT environment for a fictional company called **Northstar Solutions**.
 
-The project simulates the IT infrastructure of a fictional company called Northstar Solutions.
+The aim is to simulate a small business network and gain practical experience with Windows Server, Active Directory and common IT support tasks.
 
-The aim is to gain hands-on experience with Windows Server administration, Active Directory, networking, user management and troubleshooting common IT support issues.
+Using Oracle VirtualBox, I am creating virtual computers to represent a company's server and employee workstations. The server will centrally manage employee accounts and computers through Active Directory.
 
-## Hardware & Software
+## Project Objectives
 
-### Host Machine
-- Windows 11 Home
-- AMD Ryzen 7 processor
-- 16GB RAM
-- 512GB SSD
+The main objectives of this project are to:
 
-### Virtualisation
-- Oracle VirtualBox
+- Build a small virtual business network.
+- Install and configure Windows Server.
+- Set up Active Directory Domain Services.
+- Create and manage employee user accounts.
+- Connect employee workstations to a company domain.
+- Learn how DNS and networking support a Windows domain.
+- Configure Group Policy and shared folders.
+- Practise common Level 1 Helpdesk support scenarios.
 
-### Planned Lab Environment
-- Windows Server 2025
-- Windows 11 client workstation
-- Active Directory Domain Services
-- DNS and DHCP
-- Group Policy
-- File sharing and NTFS permissions
-- PowerShell
+## Lab Environment
 
-## Planned Projects
+| Component | Purpose |
+|---|---|
+| Oracle VirtualBox | Runs the virtual computers |
+| Windows Server 2025 | Provides the company's central server |
+| Active Directory | Manages employee accounts and computers |
+| Windows 11 Pro | Represents an employee workstation |
+| Northstar Solutions | Fictional company used for the simulation |
 
-- [ ] Install and configure Windows Server 2025
-- [ ] Configure static IP addressing
-- [ ] Install Active Directory Domain Services
-- [ ] Create and configure a domain
-- [ ] Create users, groups and Organizational Units
-- [ ] Join a Windows 11 workstation to the domain
-- [ ] Configure Group Policy
-- [ ] Configure shared folders and permissions
-- [ ] Practise common helpdesk troubleshooting scenarios
-- [ ] Create basic PowerShell administration scripts
+## Helpdesk Scenarios
 
-## Troubleshooting Scenarios
+Once the environment is configured, I will use it to practise realistic IT support tasks, including:
 
-Planned practical exercises:
+- Creating employee accounts.
+- Resetting forgotten passwords.
+- Unlocking locked user accounts.
+- Troubleshooting domain login problems.
+- Managing user access and security groups.
+- Troubleshooting DNS and network connectivity.
+- Investigating shared folder and permission issues.
+- Applying and troubleshooting Group Policy.
 
-- Password resets and account lockouts
-- Domain login failures
-- DNS resolution problems
-- DHCP connectivity issues
-- File permission errors
-- Group Policy troubleshooting
+## Skills I Aim to Develop
 
-## Documentation
+- Windows Server administration
+- Active Directory user and computer management
+- Basic networking and DNS
+- Virtualisation using VirtualBox
+- Windows 11 troubleshooting
+- Group Policy administration
+- File and folder permissions
+- Basic PowerShell
 
-I will document the configuration process, technical concepts, screenshots and troubleshooting solutions as the project develops.
+## Project Documentation
 
-**Project status:** In progress.
+This repository will contain screenshots, configuration notes and troubleshooting records showing how the lab is built and how different IT support scenarios are completed.
+
+## Project Status
+
+**In progress** — building the virtual network and configuring the Windows Server environment.
