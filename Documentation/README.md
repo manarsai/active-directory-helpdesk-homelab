@@ -34,6 +34,9 @@ DC01 will act as the central server for the fictional company's network.
 
 The employee workstations will eventually connect to this server.
 
+<img width="1072" height="706" alt="image" src="https://github.com/user-attachments/assets/f31d1ce7-841b-4ca8-b131-cce8e7524fd8" />
+
+
 ## Step 3 - Install Windows Server 2025
 
 I installed Windows Server 2025 Standard Evaluation with Desktop Experience on DC01.
