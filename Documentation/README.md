@@ -4,12 +4,12 @@ Exercise 2: Resetting an employee's password<br>
 Exercise 3: Unlocking a locked employee account<br>
 Exercise 4: Creating security groups
 
-## Exercise 1: Creating a new employee account in Active Directory
-
 Tools Used:
 - Windows Server 2025
 - Active Directory Users and Computers
 - Active Directory Domain Services
+
+## Exercise 1: Creating a new employee account in Active Directory
   
 Procedure
 1. Logged into Windows Server domain controller (DC01)
