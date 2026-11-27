@@ -15,7 +15,7 @@ My main focus is practising everyday helpdesk tasks, understanding how to troubl
 - Oracle VirtualBox
 - Windows Server 2025
 - Active Directory Domain Services
-- Windows 11 Pro (client workstation)
+- Windows 11
 - DNS
 - Group Policy
 - PowerShell
