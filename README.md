@@ -47,15 +47,7 @@ The lab simulates a fictional company network:
 
 ## Project Documentation
 
-Each helpdesk scenario will be documented with:
-
-- The problem or support request.
-- The investigation and troubleshooting steps.
-- The solution implemented.
-- The outcome.
-- Screenshots showing relevant work.
-
-The aim is to build a portfolio demonstrating practical IT support skills and the ability to investigate and resolve common technical problems.
+Each helpdesk scenario is documented in the Documentation folder. Each exercise includes procedure, troubleshooting steps if necessary, and screenshots of work.
 
 ## Skills Being Developed
 
@@ -69,6 +61,3 @@ The aim is to build a portfolio demonstrating practical IT support skills and th
 - PowerShell fundamentals
 - Technical documentation and problem-solving
 
-## Project Status
-
-**In progress** — the virtual server has been promoted to a Domain Controller. The next stage is to create employee accounts and begin practising practical helpdesk scenarios.
