@@ -1,6 +1,8 @@
 ## Contents of this documentation
 Exercise 1: Creating a new employee account in Active Directory<br>
-Exercise 2: Resetting an employee's password
+Exercise 2: Resetting an employee's password<br>
+Exercise 3: Unlocking a locked employee account
+Exercise 4: Creating security groups
 
 ## Exercise 1: Creating a new employee account in Active Directory
 
@@ -41,6 +43,19 @@ Procedure
 
 <img width="402" height="172" alt="image" src="https://github.com/user-attachments/assets/35023bc2-7725-43b8-81ce-cb5c7f33b536" />
 
+## Exercise 3: Unlocking a locked employee account
+
+Procedure:
+1. Opened Server Manager
+2. Selected Tools and opened Active Directory Users and Computers
+3. Expanded nortstar.local
+4. Found Sarah Jones
+5. Selected Properties on Sarah Jones and opened the Account tab
+6. Ticked "Unlock Account" Option and applied
+
+<img width="557" height="281" alt="image" src="https://github.com/user-attachments/assets/9391ad04-43cb-458f-b4f7-0eb2e8ecb62c" />
+
+## Exercise 4: Creating security groups
 
 
 
