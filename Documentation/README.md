@@ -59,6 +59,9 @@ Using a clear server name makes it easier to identify and manage computers withi
 
 DC01 stands for Domain Controller 01, which is the role I intend this server to perform.
 
+<img width="1076" height="523" alt="image" src="https://github.com/user-attachments/assets/700bf90a-0804-41c4-9414-5cbdcafd076c" />
+
+
 ## Step 5 - Configure Virtual Network Adapters
 
 I configured two network adapters in VirtualBox.
