@@ -1,7 +1,7 @@
 ## Contents of this documentation
 Exercise 1: Creating a new employee account in Active Directory<br>
 Exercise 2: Resetting an employee's password<br>
-Exercise 3: Unlocking a locked employee account
+Exercise 3: Unlocking a locked employee account<br>
 Exercise 4: Creating security groups
 
 ## Exercise 1: Creating a new employee account in Active Directory
@@ -56,6 +56,27 @@ Procedure:
 <img width="557" height="281" alt="image" src="https://github.com/user-attachments/assets/9391ad04-43cb-458f-b4f7-0eb2e8ecb62c" />
 
 ## Exercise 4: Creating security groups
+
+Procedure:
+Creating the IT security group:
+1. Open Server Manager
+2. Select Tools and open Active Directory Users and Computers
+3. Expand northstar.local
+4. Select Users folder and New -> Group
+5. Entered new group IT
+
+Adding Sarah Jones to the group:
+1. Find the IT group is Users folder and select it.
+2. Select Properties
+3. Open Members tab and click Add
+4. Enter sarah.jones
+5. Click check names and Apply
+
+<img width="602" height="367" alt="image" src="https://github.com/user-attachments/assets/27065242-b568-46d1-bacc-302a9e30f36b" />
+
+<img width="437" height="375" alt="image" src="https://github.com/user-attachments/assets/019c6ba3-a065-4494-8237-615b7bdc87f8" />
+
+<img width="401" height="453" alt="image" src="https://github.com/user-attachments/assets/23e53996-aa5c-493e-840c-ed0d47609801" />
 
 
 
