@@ -2,63 +2,73 @@
 
 ## Project Overview
 
-This project involves building a virtual IT environment for a fictional company called **Northstar Solutions**.
+This project is a practical IT support home lab built around a fictional company called **Northstar Solutions**.
 
-The aim is to simulate a small business network and gain practical experience with Windows Server, Active Directory and common IT support tasks.
+The purpose of the project is to develop hands-on skills relevant to Level 1 Helpdesk and IT Support roles by simulating common workplace IT issues and resolving them in a virtual business environment.
 
-Using Oracle VirtualBox, I am creating virtual computers to represent a company's server and employee workstations. The server will centrally manage employee accounts and computers through Active Directory.
+The lab uses Windows Server, Active Directory and virtual Windows workstations to simulate how a small company manages its employees, computers and IT resources.
 
-## Project Objectives
+My main focus is practising everyday helpdesk tasks, understanding how to troubleshoot problems and documenting the solutions.
 
-The main objectives of this project are to:
+## Technologies Used
 
-- Build a small virtual business network.
-- Install and configure Windows Server.
-- Set up Active Directory Domain Services.
-- Create and manage employee user accounts.
-- Connect employee workstations to a company domain.
-- Learn how DNS and networking support a Windows domain.
-- Configure Group Policy and shared folders.
-- Practise common Level 1 Helpdesk support scenarios.
-
-## Lab Environment
-
-| Component | Purpose |
-|---|---|
-| Oracle VirtualBox | Runs the virtual computers |
-| Windows Server 2025 | Provides the company's central server |
-| Active Directory | Manages employee accounts and computers |
-| Windows 11 Pro | Represents an employee workstation |
-| Northstar Solutions | Fictional company used for the simulation |
+- Oracle VirtualBox
+- Windows Server 2025
+- Active Directory Domain Services
+- Windows 11 Pro (client workstation)
+- DNS
+- Group Policy
+- PowerShell
 
 ## Helpdesk Scenarios
 
-Once the environment is configured, I will use it to practise realistic IT support tasks, including:
+The main focus of this project is completing and documenting practical IT support exercises, including:
 
-- Creating employee accounts.
-- Resetting forgotten passwords.
-- Unlocking locked user accounts.
-- Troubleshooting domain login problems.
-- Managing user access and security groups.
-- Troubleshooting DNS and network connectivity.
-- Investigating shared folder and permission issues.
-- Applying and troubleshooting Group Policy.
+- **User Account Management:** Creating and managing employee accounts in Active Directory.
+- **Password Resets:** Resetting forgotten passwords and helping users regain access.
+- **Account Lockouts:** Investigating and unlocking locked user accounts.
+- **Security Groups:** Managing group membership and user access.
+- **Domain Connectivity:** Troubleshooting computers that cannot connect to the company domain.
+- **Shared Folder Permissions:** Configuring and troubleshooting access to shared files.
+- **Group Policy:** Applying and troubleshooting centralised computer and user settings.
+- **DNS Troubleshooting:** Investigating name resolution and domain login problems.
 
-## Skills I Aim to Develop
+## Lab Environment
 
-- Windows Server administration
-- Active Directory user and computer management
-- Basic networking and DNS
-- Virtualisation using VirtualBox
-- Windows 11 troubleshooting
-- Group Policy administration
-- File and folder permissions
-- Basic PowerShell
+The lab simulates a fictional company network:
+
+| Component | Purpose |
+|---|---|
+| DC01 | Central Windows Server and Domain Controller |
+| Active Directory | Central management of employee accounts and computers |
+| CLIENT01 | Virtual employee workstation |
+| NORTHSTAR | Private virtual company network |
+| northstar.local | Company's Active Directory domain |
 
 ## Project Documentation
 
-This repository will contain screenshots, configuration notes and troubleshooting records showing how the lab is built and how different IT support scenarios are completed.
+Each helpdesk scenario will be documented with:
+
+- The problem or support request.
+- The investigation and troubleshooting steps.
+- The solution implemented.
+- The outcome.
+- Screenshots showing relevant work.
+
+The aim is to build a portfolio demonstrating practical IT support skills and the ability to investigate and resolve common technical problems.
+
+## Skills Being Developed
+
+- Active Directory administration
+- Windows user and account management
+- Password resets and account troubleshooting
+- Basic networking and DNS
+- Windows operating system troubleshooting
+- File and folder permissions
+- Group Policy administration
+- PowerShell fundamentals
+- Technical documentation and problem-solving
 
 ## Project Status
 
-**In progress** — building the virtual network and configuring the Windows Server environment.
+**In progress** — the virtual server has been promoted to a Domain Controller. The next stage is to create employee accounts and begin practising practical helpdesk scenarios.
